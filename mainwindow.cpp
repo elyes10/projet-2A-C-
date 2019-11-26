@@ -1,18 +1,15 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <dialog.h>
+#include <afficher.h>
 #include <QPushButton>
-#include <ajouter_billets.h>
-#include <modifier_billets.h>
-#include <supprimer_billets.h>
+#include <ajouter_passager.h>
+#include <modifier_passager.h>
+#include <supprimer_passager.h>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-  setWindowTitle("Gestion des billets");
-  QPixmap pix("C:/Users/HP/Desktop/tt.jpg");
-  ui->label->setPixmap(pix);
 }
 
 MainWindow::~MainWindow()
@@ -21,30 +18,30 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_Affichiermain_clicked()
+void MainWindow::on_pushButton_2_clicked()
 {
-  Dialog d;
-  d.setModal(true);
-  d.exec();
+    afficher d;
+    d.setModal(true);
+    d.exec();
 }
 
-void MainWindow::on_modifiermain_clicked()
+void MainWindow::on_pushButton_3_clicked()
 {
-  Modifier_billets modif;
-  modif.setModal(true);
-  modif.exec();
+    modifier_passager modif;
+    modif.setModal(true);
+    modif.exec();
 }
 
-void MainWindow::on_supprimermain_clicked()
+void MainWindow::on_pushButton_4_clicked()
 {
- Supprimer_Billets supp;
- supp.setModal(true);
- supp.exec();
+    supprimer_passager supp;
+    supp.setModal(true);
+    supp.exec();
 }
 
-void MainWindow::on_ajoutermain_clicked()
+void MainWindow::on_pushButton_5_clicked()
 {
-  Ajouter_billets ajout;
-  ajout.setModal(true);
-  ajout.exec();
+    ajouter_passager ajout;
+    ajout.setModal(true);
+    ajout.exec();
 }
