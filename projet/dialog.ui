@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>19</y>
+     <width>791</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Affichier Billets</string>
+   </property>
+   <widget class="QPushButton" name="affichier">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>390</y>
+      <width>321</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url(:/new/prefix1/blue);</string>
+    </property>
+    <property name="text">
+     <string>Affichier toutes les billets</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>741</width>
+      <height>331</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-15</y>
+      <width>831</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/prefix1/b);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>10</y>
+      <width>311</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Recherche par ID</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>affichier</zorder>
+   <zorder>tableView</zorder>
+   <zorder>lineEdit</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
