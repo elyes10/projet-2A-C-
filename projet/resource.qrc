@@ -4,5 +4,17 @@
         <file alias="blue">blue.jpg</file>
         <file alias="green">green.jpg</file>
         <file alias="b">b.jpg</file>
+        <file alias="button">button.jpg</file>
+        <file>g.jpg</file>
+        <file alias="red">red.jpg</file>
+        <file alias="e">11.jpg</file>
+        <file alias="back">back.jpg</file>
+        <file>jj.jpg</file>
+        <file alias="rb">redb.jpg</file>
+        <file alias="bl">bl.jpg</file>
+        <file alias="bbb">bbb.jpg</file>
+        <file>gg.jpg</file>
+        <file alias="p">plane.png</file>
+        <file alias="icon">icon.png</file>
     </qresource>
 </RCC>

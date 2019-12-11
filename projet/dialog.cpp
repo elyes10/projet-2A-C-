@@ -9,8 +9,7 @@ Dialog::Dialog(QWidget *parent) :
     ui->setupUi(this);
 
     setWindowTitle("Gestion des billets");
-    QPixmap pix("C:/Users/HP/Desktop/jj.jpg");
-    ui->label->setPixmap(pix);
+
     ui->tableView->setModel(tmpbillet.afficher());
 }
 

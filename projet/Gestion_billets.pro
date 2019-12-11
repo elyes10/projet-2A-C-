@@ -23,6 +23,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     modifier_billets.cpp \
+    notification.cpp \
     qcustomplot.cpp \
     statistiques.cpp \
     supprimer_billets.cpp
@@ -34,6 +35,7 @@ HEADERS += \
     dialog.h \
     mainwindow.h \
     modifier_billets.h \
+    notification.h \
     qcustomplot.h \
     statistiques.h \
     supprimer_billets.h

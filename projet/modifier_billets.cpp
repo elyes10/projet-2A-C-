@@ -19,7 +19,7 @@ Modifier_billets::~Modifier_billets()
 }
 
 void Modifier_billets::on_enrigistrer_modification_clicked()
-{QSound::play("C:/Users/WSI/Desktop/projet/click.wav");
+{
     int id=ui->id->text().toInt();
     QString type1=ui->type->text();
     QString classe1=ui->classe->text();
@@ -32,4 +32,5 @@ void Modifier_billets::on_enrigistrer_modification_clicked()
 
     bool test=tmpbillet.Modifier(id,type1,classe1,datevol1,prix1,numplace1,idpassager1,etat1,destination1);
 qDebug()<<"billet modifier "<<test;
+QSound::play("C:/Users/WSI/Desktop/projet/b_modifier.wav");
 }

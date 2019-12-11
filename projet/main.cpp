@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
     try {
           bool t= c.ouvrirConnexion();
            qDebug()<<"hhhhhh"<<t;
-
            w.show();
        } catch (QString s) {
            qDebug()<<s;

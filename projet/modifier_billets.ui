@@ -18,7 +18,7 @@
     <rect>
      <x>19</x>
      <y>19</y>
-     <width>631</width>
+     <width>1001</width>
      <height>431</height>
     </rect>
    </property>
@@ -35,7 +35,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/new/prefix1/blue);</string>
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
     </property>
     <property name="text">
      <string>Enrigistrer</string>
@@ -51,7 +51,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/new/prefix1/blue);</string>
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
     </property>
     <property name="text">
      <string>Annuler</string>
@@ -366,8 +366,6 @@
     </property>
    </widget>
    <zorder>label_10</zorder>
-   <zorder>enrigistrer_modification</zorder>
-   <zorder>annuler</zorder>
    <zorder>label_8</zorder>
    <zorder>label_7</zorder>
    <zorder>prix</zorder>
@@ -387,6 +385,8 @@
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
    <zorder>label_9</zorder>
+   <zorder>annuler</zorder>
+   <zorder>enrigistrer_modification</zorder>
   </widget>
  </widget>
  <resources/>

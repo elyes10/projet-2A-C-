@@ -35,7 +35,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: url(:/new/prefix1/blue);</string>
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
     </property>
     <property name="text">
      <string>Affichier toutes les billets</string>

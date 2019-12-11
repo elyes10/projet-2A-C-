@@ -35,7 +35,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/new/prefix1/blue);</string>
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
     </property>
     <property name="text">
      <string>Supprimer billet par id</string>
@@ -51,7 +51,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/new/prefix1/blue);</string>
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
     </property>
     <property name="text">
      <string>Supprimer toutes les billets non valable</string>
@@ -67,7 +67,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/new/prefix1/blue);</string>
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
     </property>
     <property name="text">
      <string>retour</string>
@@ -96,19 +96,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>-10</x>
-      <y>-15</y>
-      <width>641</width>
-      <height>481</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
@@ -123,7 +110,6 @@
     </property>
    </widget>
    <zorder>label_2</zorder>
-   <zorder>label</zorder>
    <zorder>supp_billets_select</zorder>
    <zorder>supp_billet_nonvalable</zorder>
    <zorder>retour</zorder>

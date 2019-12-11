@@ -34,6 +34,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
+    </property>
     <property name="text">
      <string>Annuler</string>
     </property>
@@ -326,6 +329,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/prefix1/g);</string>
+    </property>
     <property name="text">
      <string>ajouter</string>
     </property>
@@ -338,6 +344,9 @@
       <width>695</width>
       <height>534</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/prefix1/b);</string>
     </property>
     <property name="text">
      <string/>
@@ -381,6 +390,22 @@
     <hint type="destinationlabel">
      <x>445</x>
      <y>511</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ajouter</sender>
+   <signal>clicked()</signal>
+   <receiver>Ajouter_billets</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>588</x>
+     <y>465</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>593</x>
+     <y>513</y>
     </hint>
    </hints>
   </connection>
